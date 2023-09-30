@@ -7,7 +7,7 @@ function CalculatorView() {
       <img
         src={logo}
         alt="Logo"
-        className="my-10 h-[57px] w-[90px] lg:mb-20 lg:mt-40"
+        className="my-10 h-[57px] w-[90px] select-none lg:mb-20 lg:mt-40"
       />
       <CalculatorCard />
     </div>

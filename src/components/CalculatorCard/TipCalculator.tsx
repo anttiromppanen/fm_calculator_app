@@ -43,10 +43,12 @@ function TipCalculator() {
       <div>
         <div className="flex items-center justify-between">
           <div>
-            <h3 className="text-sm text-userLightGrayishCyan lg:text-base">
+            <h3 className="select-none text-sm text-userLightGrayishCyan lg:text-base">
               Tip Amount
             </h3>
-            <p className="text-xs text-userGrayishCyan lg:text-sm">/ person</p>
+            <p className="select-none text-xs text-userGrayishCyan lg:text-sm">
+              / person
+            </p>
           </div>
           <p className="text-3xl text-userStrongCyan lg:text-5xl">
             <CountUp
@@ -61,10 +63,12 @@ function TipCalculator() {
         </div>
         <div className="mt-6 flex items-center justify-between">
           <div>
-            <h3 className="text-sm text-userLightGrayishCyan lg:text-base">
+            <h3 className="select-none text-sm text-userLightGrayishCyan lg:text-base">
               Total
             </h3>
-            <p className="text-xs text-userGrayishCyan lg:text-sm">/ person</p>
+            <p className="select-none text-xs text-userGrayishCyan lg:text-sm">
+              / person
+            </p>
           </div>
           <p className="text-3xl text-userStrongCyan lg:text-5xl">
             <CountUp

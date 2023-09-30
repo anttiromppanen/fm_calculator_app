@@ -12,7 +12,7 @@ function PercentageSelector() {
     useState(false);
 
   return (
-    <div className="mt-10">
+    <div>
       <h2 className="text-userDarkGrayishCyan lg:text-lg">Select Tip %</h2>
       <ul className="mt-5 grid grid-cols-2 gap-4 md:grid-cols-3">
         <li>

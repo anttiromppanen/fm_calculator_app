@@ -33,15 +33,16 @@ function SmallOutput({ heading, leftIcon, value, handleChange }: Props) {
           onChange={handleInputChange}
           placeholder="0"
           className={`
-          border- w-full cursor-pointer rounded-md bg-userVeryLightGrayishCyan
-          px-4 py-2 text-right text-2xl text-userVeryDarkCyan caret-userStrongCyan
-          hover:outline hover:outline-2 hover:outline-userStrongCyan
-          focus:bg-userWhite focus:outline focus:outline-2 focus:outline-userGrayishCyan
-          ${
-            Number(value) <= 0 &&
-            inputHasBeenTouched &&
-            "!outline-userErrorOrange !outline !outline-2"
-          }`}
+            w-full cursor-pointer rounded-md bg-userVeryLightGrayishCyan
+            px-4 py-2 text-right text-2xl text-userVeryDarkCyan caret-userStrongCyan
+            hover:outline hover:outline-2
+            hover:outline-userStrongCyan focus:bg-userWhite focus:outline focus:outline-2
+            focus:outline-userGrayishCyan
+            ${
+              Number(value) <= 0 &&
+              inputHasBeenTouched &&
+              "!outline-userErrorOrange !outline !outline-2"
+            }`}
         />
         <img
           src={leftIcon}

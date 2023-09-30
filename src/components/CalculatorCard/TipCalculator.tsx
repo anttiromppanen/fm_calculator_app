@@ -36,7 +36,7 @@ function TipCalculator() {
   return (
     <div
       className="
-        mt-8 flex w-full flex-col justify-between rounded-2xl bg-userVeryDarkCyan px-6 pb-6 pt-11
+        flex w-full flex-col justify-between rounded-2xl bg-userVeryDarkCyan px-6 pb-6 pt-11
         lg:mt-0 lg:h-full lg:basis-1/2 lg:pb-9
         "
     >

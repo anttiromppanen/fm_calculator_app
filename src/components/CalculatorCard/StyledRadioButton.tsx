@@ -30,8 +30,8 @@ function StyledRadioButton({ value }: Props) {
         className="
           block w-full cursor-pointer rounded-lg bg-userVeryDarkCyan py-2
           text-center text-xl text-userVeryLightGrayishCyan
-        peer-checked:bg-userStrongCyan peer-checked:text-userVeryDarkCyan
-          lg:text-2xl"
+          peer-checked:bg-userStrongCyan
+          peer-checked:text-userVeryDarkCyan lg:text-2xl"
       >
         {value}%
       </label>

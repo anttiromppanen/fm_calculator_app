@@ -15,8 +15,8 @@ function CalculatorCard() {
     <div
       className="
       flex h-fit w-full flex-col rounded-t-3xl bg-userWhite px-8 py-9
-      sm:w-2/3 lg:w-full
-      lg:flex-row lg:items-center lg:justify-center lg:rounded-3xl lg:p-8"
+      shadow-2xl shadow-userVeryDarkCyan/25 sm:w-2/3 sm:rounded-3xl lg:w-full
+      lg:flex-row lg:items-center lg:justify-center lg:p-8"
     >
       <div className="lg:basis-1/2 lg:pr-12">
         <SmallOutput
@@ -26,7 +26,6 @@ function CalculatorCard() {
           handleChange={setBillAmount}
         />
         <PercentageSelector />
-        <div className="mt-10" />
         <SmallOutput
           heading="Number of People"
           leftIcon={personIcon}
